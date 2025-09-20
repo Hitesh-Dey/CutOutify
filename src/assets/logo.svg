@@ -1,0 +1,27 @@
+<svg width="240" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- CUTE CARTOON SCISSORS MASCOT -->
+  <g id="scissors">
+    <!-- handles -->
+    <circle cx="23" cy="45" r="14" stroke="#1a1aff" stroke-width="4" fill="#D6E4FF"></circle>
+    <circle cx="50" cy="45" r="14" stroke="#ff005e" stroke-width="4" fill="#FFD6E8"></circle>
+
+    <!-- blades -->
+    <path d="M23 45 L50 15" stroke="#cfcfcf" stroke-width="6" stroke-linecap="round"></path>
+    <path d="M50 45 L23 15" stroke="#cfcfcf" stroke-width="6" stroke-linecap="round"></path>
+  </g>
+
+  <!-- LOGO TEXT -->
+  <text x="80" y="55" font-family="Poppins, sans-serif" font-weight="700" font-size="38" fill="url(#grad)">
+    CutOutify
+  </text>
+
+  <!-- GRADIENT -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a1aff"></stop>
+      <stop offset="50%" stop-color="#8400ff"></stop>
+      <stop offset="100%" stop-color="#ff005e"></stop>
+    </linearGradient>
+  </defs>
+</svg>
